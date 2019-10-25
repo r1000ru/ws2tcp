@@ -1,0 +1,28 @@
+{
+  "name": "ws2tcp",
+  "version": "0.0.1",
+  "description": "WebSocket to TCP socket proxy",
+  "main": "src/ws2tcp.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r1000ru/ws2tcp.git"
+  },
+  "keywords": [
+    "WebSocket",
+    "TCP",
+    "socket"
+  ],
+  "author": "Roman Sorokin",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/r1000ru/ws2tcp/issues"
+  },
+  "homepage": "https://github.com/r1000ru/ws2tcp#readme",
+  "dependencies": {
+    "ws": "^7.2.0"
+  }
+}
