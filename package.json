@@ -1,6 +1,6 @@
 {
   "name": "ws2tcp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "WebSocket to TCP socket proxy",
   "main": "src/ws2tcp.js",
   "scripts": {

@@ -1,5 +1,8 @@
 const WS2TCP = require('./ws2tcp');
 
+console.log('For custom TCP host and port use: ws2tcp -tp {TCP_port} -th {TCP_hostname}');
+console.log('For custom WS interface use: ws2tcp -wp {WS_port} -th {WS_hostname}');
+console.log('Default: ws2tcp -tp 50001 -th 127.0.0.1 -wp 8080 -wh 127.0.0.1')
 
 let args = process.argv.slice(2);
 
