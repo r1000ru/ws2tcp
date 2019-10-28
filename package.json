@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/r1000ru/ws2tcp.git"
   },
+  "bin": {
+    "ws2tcp": "./bin/ws2tcp"
+  },
   "keywords": [
     "WebSocket",
     "TCP",
